@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { useDispatch } from "react-redux";
-import { add } from "../store";
+import { add } from "../store/actions/lists";
 
 const Form = () => {
     const[text, setText] = useState("")
